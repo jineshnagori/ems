@@ -448,7 +448,7 @@ blockquote p {
 }
 .readon.red-banner {
   font-size: 16px;
-  line-height: 38px;
+  line-height: 20px;
   font-weight: 700;
   padding: 8px 30px;
   border-radius: 4px;
@@ -3297,7 +3297,7 @@ body .modal-backdrop {
 
 .typewriter{
     position: relative;
-    width: 128px;
+    width: 330px;
     border-right: 3px solid #f12713;
     font-size: 300%;
     white-space: nowrap;
@@ -3311,7 +3311,7 @@ body .modal-backdrop {
     }
 
     to {
-        width: 128px;
+        width: 330px;
     }
 }
 
@@ -3326,7 +3326,7 @@ body .modal-backdrop {
 }
 @media (max-width: 767px){
   .typewriter{
-    width: 116px;
+    width: 280px;
 }
 @keyframes typewriter {
     from {
@@ -3334,7 +3334,7 @@ body .modal-backdrop {
     }
 
     to {
-        width: 116px;
+        width: 280px;
     }
 }
 }
@@ -3591,7 +3591,7 @@ body .modal-backdrop {
   margin-bottom: 22px;
 }
 .rs-banner.style8 .banner-content .sl-title {
-  font-size: 90px;
+  font-size: 80px;
   line-height: 90px;
   font-weight: 700;
   color: #ffffff;
@@ -3684,8 +3684,8 @@ body .modal-backdrop {
   padding-bottom: 10px;
 }
 .rs-banner.style10 .banner-content .sl-title {
-  font-size: 50px;
-  line-height: 70px;
+  font-size: 40px;
+  line-height: 60px;
   font-weight: 800;
   color: #171f32;
   text-transform: uppercase;
@@ -7037,11 +7037,10 @@ body .modal-backdrop {
   display: block;
 }
 .rs-team.style1 .team-item .content-part .social-links li {
-  display: inline;
+  width: 100%;
   margin-right: 35px;
 }
 .rs-team.style1 .team-item .content-part .social-links li a {
-  display: inline-block;
   color: #ffffff;
 }
 .rs-team.style1 .team-item .content-part .social-links li a:hover {
@@ -12154,7 +12153,6 @@ body .modal-backdrop {
   font-weight: 400;
 }
 .contact-page-section .rs-quick-contact {
-  background-color: #F9F8F8;
   padding: 70px 150px 70px;
 }
 .contact-page-section .rs-quick-contact .from-control {
@@ -13417,5 +13415,11 @@ body .modal-backdrop {
   }
   100% {
     transform: scale(1.2);
+  }
+}
+
+@media (min-width: 768px){
+  #contact-form {
+    width: 800px;
   }
 }
